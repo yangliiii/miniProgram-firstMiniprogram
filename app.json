@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#abc",
+    "navigationBarTitleText": "中国银行虚拟小程序",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":70
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#000",
+    "backgroundColor": "#abc",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath":"image/home/icon/WeChat_icon_2.jpg",
+        "selectedIconPath":"image/home/icon/WeChat_icon_1.jpg"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "活动中心",
+        "iconPath": "image/home/icon/WeChat_icon_2.jpg",
+        "selectedIconPath": "image/home/icon/WeChat_icon_1.jpg"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "个人中心",
+        "iconPath": "image/home/icon/WeChat_icon_2.jpg",
+        "selectedIconPath": "image/home/icon/WeChat_icon_1.jpg"
+      }
+    ]
+  }
+}

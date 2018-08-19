@@ -1,0 +1,34 @@
+<button bindtap='changeText'>click me</button>
+<view class=''>
+  <view>
+    <text>{{info}}</text>
+  </view>
+</view>
+<button>click me</button>
+<view class=''>
+  <view>
+    <text>{{number}}</text>
+  </view>
+</view>
+<button>click me</button>
+<view class=''>
+  <view wx:for="{{array}}">
+    <!-- <text wx:for="{{array}}">{{item}}</text> -->
+    <!-- <text>{{array[0].key}}</text> -->
+    <text>{{item}}</text>
+  </view>
+</view>
+<button>click me</button>
+<view class=''>
+  <view>
+    <text>{{object.text}}</text>
+  </view>
+</view>
+
+<wxs module="m1">
+var msg = "hello world";
+
+module.exports.message = msg;
+</wxs>
+
+<view> {{m1.message}} </view>

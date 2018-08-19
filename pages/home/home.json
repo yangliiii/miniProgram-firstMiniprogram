@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#abc",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#bbb",
+  "backgroundTextStyle": "dark",
+  "disableScroll":false
+  
+}
