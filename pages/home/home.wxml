@@ -1,34 +1,20 @@
-<button bindtap='changeText'>click me</button>
-<view class=''>
-  <view>
-    <text>{{info}}</text>
+<view class="container">
+  <view class="page_head">
+    <text class="page_reminder">您还未关注中国银行微银行</text>
   </view>
-</view>
-<button>click me</button>
-<view class=''>
-  <view>
-    <text>{{number}}</text>
-  </view>
-</view>
-<button>click me</button>
-<view class=''>
-  <view wx:for="{{array}}">
-    <!-- <text wx:for="{{array}}">{{item}}</text> -->
-    <!-- <text>{{array[0].key}}</text> -->
-    <text>{{item}}</text>
-  </view>
-</view>
-<button>click me</button>
-<view class=''>
-  <view>
-    <text>{{object.text}}</text>
-  </view>
-</view>
 
-<wxs module="m1">
-var msg = "hello world";
+  <view class='page_mid'>
+    <view>
+      <image mode='aspectFill' style="width: 150px; height: 150px" src='../../image/home/icon/WeChat_QRCode.jpg'></image>
+    </view>
+  </view>
 
-module.exports.message = msg;
-</wxs>
-
-<view> {{m1.message}} </view>
+  <view class="page_bd">
+    <view>
+      <view>长按二维码“识别”</view>
+      <view>
+        <text>中国银行微银行</text>
+      </view>
+    </view>
+  </view>
+</view>

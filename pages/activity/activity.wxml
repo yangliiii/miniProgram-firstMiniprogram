@@ -1,0 +1,24 @@
+<button bindtap='changeText'>click me</button>
+<view class=''>
+  <view>
+    <text>{{info}}</text>
+  </view>
+</view>
+<button>click me</button>
+<view class=''>
+  <view>
+    <text>{{number}}</text>
+  </view>
+</view>
+<button>click me</button>
+<view class=''>
+  <view wx:for="{{array}}">
+    <text>{{item}}</text>
+  </view>
+</view>
+<button>click me</button>
+<view class=''>
+  <view>
+    <text>{{object.text}}</text>
+  </view>
+</view>

@@ -1,1 +1,8 @@
 /* pages/home/home.wxss */
+page{
+  background-color:lightskyblue
+}
+
+.page_mid{
+  padding: 100rpx 0;
+}

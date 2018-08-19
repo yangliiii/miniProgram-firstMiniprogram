@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/home/home",
-    "pages/logs/logs"
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/activity/activity",
+    "pages/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -21,20 +24,20 @@
       {
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath":"image/home/icon/WeChat_icon_2.jpg",
-        "selectedIconPath":"image/home/icon/WeChat_icon_1.jpg"
+        "iconPath":"image/home/icon/WeChat_home.jpg",
+        "selectedIconPath":"image/home/icon/WeChat_home.jpg"
       },
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "pages/activity/activity",
         "text": "活动中心",
-        "iconPath": "image/home/icon/WeChat_icon_2.jpg",
-        "selectedIconPath": "image/home/icon/WeChat_icon_1.jpg"
+        "iconPath": "image/home/icon/WeChat_activity.jpg",
+        "selectedIconPath": "image/home/icon/WeChat_activity.jpg"
       },
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "pages/index/index",
         "text": "个人中心",
-        "iconPath": "image/home/icon/WeChat_icon_2.jpg",
-        "selectedIconPath": "image/home/icon/WeChat_icon_1.jpg"
+        "iconPath": "image/home/icon/WeChat_my.jpg",
+        "selectedIconPath": "image/home/icon/WeChat_my.jpg"
       }
     ]
   }

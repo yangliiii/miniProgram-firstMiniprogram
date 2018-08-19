@@ -6,12 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    info:'中国银行',
-    number:2,
-    array:[{"key":"value"},1,2,3,4,5],
-    object:{
-      text:"this is object text"
-    }
+    src: '../../image/home/icon/WeChat_textImage.jpg'
   },
 
   /**
@@ -53,7 +48,13 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    
+    wx.showNavigationBarLoading() //在标题栏中显示加载
+    //模拟加载
+    setTimeout(function () {
+      // complete
+      wx.hideNavigationBarLoading() //完成停止加载
+      wx.stopPullDownRefresh() //停止下拉刷新
+    }, 1500);
   },
 
   /**
@@ -68,11 +69,5 @@ Page({
    */
   onShareAppMessage: function () {
     
-  },
-
-  changeText : function(){
-    this.setData({
-      info:"chenged Text"
-    })
   }
 })
